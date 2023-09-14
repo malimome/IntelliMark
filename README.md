@@ -1,2 +1,2 @@
 # IntelliMark
-An intelligent Bookmark search using AI
+Intelliget bookmark search using LLMs

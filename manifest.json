@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "IntelliMark",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+      "default_popup": "ui/index.html",
+      "default_icon": "ui/im128.png"
+    },
+    "permissions": [
+      "tabs",
+      "bookmarks",
+      "activeTab",
+      "storage"
+    ],
+	"omnibox": {
+		"keyword": "bts"
+	},
+    "icons": {
+      "16": "ui/im64.png",
+      "48": "ui/im128.png",
+      "128": "ui/im256.png"
+    },
+    "background": {
+      "service_worker": "background.js",
+	  "type": "module"
+    }
+}
+  
